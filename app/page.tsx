@@ -1,5 +1,6 @@
 import Hero from "@/components/hero/Hero";
 import NavBar from "@/components/layouts/NavBar/NavBar";
+import Productivity from "@/components/productivity/Productivity";
 
 export default function Home() {
   return (
@@ -21,6 +22,9 @@ export default function Home() {
           </div>
           <div className="Hero-section px-3">
             <Hero />
+          </div>
+          <div className="px-4 pt-8 overflow-hidden" id="productivity">
+            <Productivity />
           </div>
         </div>
       </div>
