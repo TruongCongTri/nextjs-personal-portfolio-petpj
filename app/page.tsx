@@ -1,3 +1,4 @@
+import Collaboration from "@/components/collaboration/Collaboration";
 import Hero from "@/components/hero/Hero";
 import NavBar from "@/components/layouts/NavBar/NavBar";
 import StickyNav from "@/components/layouts/NavBar/StickyNav";
@@ -27,6 +28,9 @@ export default function Home() {
           <StickyNav />
           <div className="px-4 pt-8 overflow-hidden" id="productivity">
             <Productivity />
+          </div>
+          <div className="px-4 pt-8 overflow-hidden" id="collaboration">
+            <Collaboration />
           </div>
         </div>
       </div>
