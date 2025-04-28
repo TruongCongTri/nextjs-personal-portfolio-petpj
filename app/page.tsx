@@ -1,5 +1,6 @@
 import Hero from "@/components/hero/Hero";
 import NavBar from "@/components/layouts/NavBar/NavBar";
+import StickyNav from "@/components/layouts/NavBar/StickyNav";
 import Productivity from "@/components/productivity/Productivity";
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
           <div className="Hero-section px-3">
             <Hero />
           </div>
+          <StickyNav />
           <div className="px-4 pt-8 overflow-hidden" id="productivity">
             <Productivity />
           </div>
