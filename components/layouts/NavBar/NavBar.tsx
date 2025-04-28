@@ -89,7 +89,7 @@ const NavBar = () => {
                 <div className="lg:flex mb-2 lg:mb-0 relative max-lg:mr-4">
                   <input
                     placeholder="Search GitHub"
-                    className="glass max-lg:bg-neutral-50 max-lg:w-full w-[240px] lg:px-2 h-[38px] max-lg:h-[41px] p-[3.5px] whitespace-nowrap overflow-hidden placeholder:text-[14px] max-lg:placeholder:text-[16px] font-medium placeholder:pl-2 focus:z-10 text-[14px] focus:outline-none focus:bg-white focus:text-black border-[1px] lg:border-neutral-500 max-lg:border-neutral-300 rounded-md lg:focus:text-white text-black"
+                    className="glass max-lg:bg-neutral-50 max-lg:w-full w-[240px] lg:px-2 h-[38px] max-lg:h-[41px] p-[3.5px] whitespace-nowrap overflow-hidden placeholder:text-[14px] max-lg:placeholder:text-[16px] font-medium placeholder:pl-2 focus:z-10 text-[14px] focus:outline-none focus:bg-white focus:text-black border-[1px] lg:border-neutral-500 max-lg:border-neutral-300 rounded-md lg:focus:text-white placeholder-neutral-300 text-black"
                     type="text"
                   />
                   <svg
